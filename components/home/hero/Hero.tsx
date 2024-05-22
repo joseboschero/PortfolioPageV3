@@ -9,7 +9,7 @@ import Profile from "@/public/jb.png";
 export const Hero = () => {
   return (
     <section className={`section-wrapper ${styles.hero}`}>
-      <div className={styles.heroGrid}>
+      <div style={{ pointerEvents: "none" }} className={styles.heroGrid}>
         <div className={styles.copyWrapper}>
           <Reveal>
             <h1 className={styles.title}>
