@@ -8,7 +8,11 @@ interface Props {
 
 export const StandardButton = ({ children, onClick }: Props) => {
   return (
-    <button onClick={onClick} className={styles.standardButton}>
+    <button
+      style={{ pointerEvents: "auto" }}
+      onClick={onClick}
+      className={styles.standardButton}
+    >
       {children}
     </button>
   );
