@@ -42,6 +42,7 @@ export const Hero = () => {
           initial={{ y: -30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.4 }}
+          style={{ pointerEvents: "auto" }}
         >
           <Image
             className={styles.profile}
