@@ -27,8 +27,10 @@ const projects = [
     modalContent: (
       <>
         <p>
-          Trabajé en el desarrollo front-end de la página, creando componentes
+          Trabajé en el desarrollo front-end y back-end de la página, creando componentes
           reutilizables y animaciones junto con la integración de calendly.
+
+          Creación de blogs a través de un formulario.
         </p>
         <p>El stack tecnológico está basado en Nextjs, Astro y Tailwind CSS.</p>
       </>
