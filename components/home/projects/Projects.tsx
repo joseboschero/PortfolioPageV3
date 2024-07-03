@@ -50,7 +50,7 @@ const projects = [
       "Framer Motion",
       "Socket.io",
       "Prisma",
-      "PostreSql",
+      "PostgreSql",
     ],
     description: "Aplicación web para gestionar una empresa de transporte.",
     modalContent: (
