@@ -54,13 +54,13 @@
   z-index: 10;
   position: relative;
   margin-right: 9rem;
-  border-radius: 50%;
+  border-radius: 10%;
   outline: solid;
   outline-width: 3px;
   outline-color: var(--brand);
   outline-offset: 6px;
-  transition: .4s;
-  
+  transition: 0.4s;
+
   &:hover {
     outline: dotted;
     outline-color: var(--brand);

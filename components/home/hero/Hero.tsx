@@ -13,12 +13,13 @@ export const Hero = () => {
         <div className={styles.copyWrapper}>
           <Reveal>
             <h1 className={styles.title}>
-              Hola, soy José<span>.</span>
+              Hola, <br />
+              soy José<span>.</span>
             </h1>
           </Reveal>
           <Reveal>
             <h2 className={styles.subTitle}>
-              Soy un <span>Full Stack Developer</span>
+              Soy <span>Full Stack Developer</span>
             </h2>
           </Reveal>
           <Reveal>
@@ -49,8 +50,8 @@ export const Hero = () => {
             src={Profile}
             priority
             alt="Jose Boschero | Frontend Developer"
-            width={250}
-            height={250}
+            width={200}
+            height={300}
           />
         </motion.div>
       </div>
